@@ -1,0 +1,133 @@
+body{
+    margin: 20px;
+}
+
+.Todo-complete{
+    text-decoration: line-through;
+}
+
+/* Below is the CSS Code for the Tech News Title*/
+h3{
+    text-indent: 10px;
+    background-color: #FF6600;
+}
+
+/*Below is the CSS Code for the List of Titles and URLs with their vote count (including buttons)*/
+li{
+    list-style-type: decimal;
+}
+
+li::marker{
+    color: #c4c4c4;
+}
+
+/*#upvoteBut{
+    cursor: pointer;
+    background-color: #c4c4c4;
+    border-style: none;
+    
+    // display: none;
+    visibility: hidden;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #c4c4c4;
+}*/
+
+#upvote{
+    cursor: pointer;
+
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #c4c4c4;
+
+    display: inline-block;
+}
+
+/*#downvoteBut{
+    cursor: pointer;
+    background-color: #c4c4c4;
+    border-style: none;
+    
+    // display: none;
+    visibility: hidden;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #c4c4c4;
+}*/
+
+#downvote{
+    cursor: pointer;
+
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #c4c4c4;
+
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+#WebTitle{
+    font-weight: bold;
+}
+
+#WebURL{
+    color: #c4c4c4;
+}
+
+#WebPoints{
+    color: #c4c4c4;
+    padding-left: 60px;
+}
+
+/* Below is the CSS Code for the Submission Box*/
+#submission{
+    background-color: #c4c4c4;
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+#subBox{
+    border-block: 10px solid #c4c4c4;
+    border-block-width: 1px;
+
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    width: 300px;
+
+    border-top-width: thick;
+}
+
+#Title{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#URL{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#TitleBox{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#URLbox{
+    margin-left: 10px;
+}
+
+#subBut{
+    margin: 10px;
+    background-color: #FF6600;
+    border-radius: 100px;
+    width: 50%;
+    border: none;
+}
